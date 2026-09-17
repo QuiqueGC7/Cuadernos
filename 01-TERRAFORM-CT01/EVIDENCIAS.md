@@ -1,0 +1,47 @@
+   2 $env:AWS_ACCESS_KEY_ID="ASIA2XGR5N6EM2JRG5CQ"                                                                                                                             
+   3 $env:AWS_SECRET_ACCESS_KEY="xRNr0YWWS/7DJus2iQX2pqdj/rc/qtpOWeJFXqNJ"                                                                                                     
+   4 $env:AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEF8aCXVzLXdlc3QtMiJGMEQCIE21PcwYe/S8VWOB8aCb0wh9Fkco5wMNgCUfVdHyKYYrAiBL9VyBq6z6PbQ0DDLusPlICRihYfLyaEmX3h4EVBA5eSqsAggoEAAaDDc...
+   5 aws --version                                                                                                                                                             
+   6 aws sts get-caller-identity --region us-east-1                                                                                                                            
+   7 terraform version                                                                                                                                                         
+   8 mkdir terraform-00-configuracion...                                                                                                                                       
+   9 terraform init                                                                                                                                                            
+  10 history                                                                                                                                                                   
+  11 terraform validate                                                                                                                                                        
+  12 cd..                                                                                                                                                                      
+  13 mkdir terraform-01-ec2...                                                                                                                                                 
+  14 terraform init                                                                                                                                                            
+  15 terraform validate                                                                                                                                                        
+  16 terraform plan                                                                                                                                                            
+  17 terraform apply                                                                                                                                                           
+  18 terraform destroy                                                                                                                                                         
+  19 aws sts get-caller-identity --region us-east-1                                                                                                                            
+  20 cd..                                 ç
+
+    2 mkdir terraform-02-s3...                                                                                                                                                  
+    3 terraform init...                                                                                                                                                         
+    4 terraform plan                                                                                                                                                            
+    5 terraform apply                                                                                                                                                           
+    6 $env:AWS_ACCESS_KEY_ID="ASIA2XGR5N6EM2JRG5CQ"...                                                                                                                          
+    7 terraform plan                                                                                                                                                            
+    8 terraform apply                                                                                                                                                           
+    9 terraform destroy                                                                                                                                                         
+    10 aws s3 rb s3://nombrebujedilbujeda                                                                                                                                        
+    11 aws sts get-caller-identity --region us-east-1                                                                                                                            
+    12 cd..                                                                                                                                                                      
+    13 mkdir terraform-03-vpc...                                                                                                                                                 
+    14 terraform init...                                                                                                                                                         
+    15 terraform apply                                                                                                                                                           
+    16 terraform state list                                                                                                                                                      
+    17 terraform destroy                                                                                                                                                         
+$env:AWS_ACCESS_KEY_ID="ASIA2XGR5N6EM2JRG5CQ"...                                                                                                                          
+   3 $env:AWS_ACCESS_KEY_ID="ASIA2XGR5N6EM2JRG5CQ"...                                                                                                                          
+   4 aws sts get-caller-identity --region us-east-1                                                                                                                            
+   5 mkdir terraform-04-subnets...                                                                                                                                             
+   6 terraform init...                                                                                                                                                         
+   7 terraform apply                                                                                                                                                           
+   8 cd..                                                                                                                                                                      
+   9 mkdir terraform-05-security-group...                                                                                                                                      
+  10 terraform init...                                                                                                                                                         
+  11 terraform apply                                                                                                                                                           
+  12 terraform destroy        
